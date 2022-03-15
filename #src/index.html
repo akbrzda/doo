@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doo - Simplify your to-do list</title>
+  @@include('_styles.html')
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <img src="./img/logo.svg" alt="Doo" class="logo">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item"><a href="#" class="menu__list-link menu__list-link--active">Doo for iOS</a></li>
+            <li class="menu__list-item"><a href="#" class="menu__list-link">Doo for Mac</a></li>
+            <li class="menu__list-item"><a href="#" class="menu__list-link">Support</a></li>
+            <li class="menu__download"><button class="menu__download-btn">Download</button></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <section class="wrap">
+    <div class="container">
+      <div class="wrap__inner">
+        <div class="wrap__header">
+          <h1 class="wrap__title">Simplify your to-do list</h1>
+          <button class="appstore-btn"><img src="./img/appstore.svg" alt="AppStore"></button>
+          <img src="./img/wrap-photo.png" alt="Wrap photo" class="wrap__photo">
+        </div>
+        <div class="wrap__info">
+          <ul class="wrap__info-list">
+            <li class="wrap__list-item">
+              <img src="./img/icons/clear.svg" alt="Clear" class="wrap__list-img">
+              <p class="wrap__list-text">Create tasks with a clear, achievable goal.</p>
+            </li>
+            <li class="wrap__list-item">
+              <img src="./img/icons/snooze.svg" alt="Snooze" class="wrap__list-img">
+              <p class="wrap__list-text">Pick a few tasks each day and snooze the rest.</p>
+            </li>
+            <li class="wrap__list-item">
+              <img src="./img/icons/habits.svg" alt="Habits" class="wrap__list-img">
+              <p class="wrap__list-text">Build sustainable habits that feel invisible.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="review">
+    <div class="container">
+      <div class="review__inner">
+        <ul class="review__list">
+          <li class="review__list-item">
+            <h3 class="review__item-title">Designed with purpose</h3>
+            <p class="review__item-text">Popular productivity apps have tagging, color coding, folders, and subfolders.
+              They call it organization. We call it bloat. Doo is everything you need and nothing you don’t.</p>
+            <img src="./img/design.png" alt="Design" class="review__item-photo">
+          </li>
+          <li class="review__list-item">
+            <h3 class="review__item-title">Effortless task entry</h3>
+            <p class="review__item-text">Create a task by typing a title. Tap an icon above the keyboard to set dates,
+              locations, notes, and more. Edit by tapping the text you’d like to change. Simple.</p>
+            <img src="./img/task.png" alt="Task" class="review__item-photo">
+          </li>
+          <li class="review__list-item">
+            <h3 class="review__item-title">One-step habit building</h3>
+            <p class="review__item-text">Tap the Edit button to select your tasks for the day and snooze the rest. Doo
+              helps you focus and avoid productivity guilt.</p>
+            <img src="./img/habit.png" alt="Habit" class="review__item-photo">
+          </li>
+          <li class="review__list-item">
+            <h3 class="review__item-title">Keeps your data private</h3>
+            <p class="review__item-text">Privacy is a fundamental right. That’s why Doo includes screen locking. No
+              "Pro" upgrade required. We also don’t collect your data. What does this mean? No trackers, no cookies, and
+              no analytics. Simple — the way it should be.</p>
+            <img src="./img/private-2.png" alt="Private" class="review__item-photo double">
+            <img src="./img/private.png" alt="Private" class="review__item-photo double">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="features">
+    <div class="container">
+      <div class="features__inner">
+        <h2 class="features__title">Other things you might be wondering about</h2>
+        <ul class="features__list">
+          <li class="features__list-item">
+            <img src="./img/icons/siri.svg" alt="Siri" class="features__item-img">
+            <h3 class="features__item-title">Ask Siri</h3>
+            <p class="features__item-text">Use Siri to create tasks, a new list, or mark items completed.</p>
+          </li>
+          <li class="features__list-item">
+            <img src="./img/icons/widget.svg" alt="Widget" class="features__item-img">
+            <h3 class="features__item-title">Widget</h3>
+            <p class="features__item-text">Ready for iOS 14. View your most recently due task or up to three recent
+              items from any list.</p>
+          </li>
+          <li class="features__list-item">
+            <img src="./img/icons/сollaboration.svg" alt="Collaboration" class="features__item-img">
+            <h3 class="features__item-title">Task Collaboration</h3>
+            <p class="features__item-text">Share reminders using iMessage, email, or any other text-based service.
+              Changes sync to all devices.</p>
+          </li>
+          <li class="features__list-item">
+            <img src="./img/icons/accessibility.svg" alt="Accessibility" class="features__item-img">
+            <h3 class="features__item-title">Accessibility</h3>
+            <p class="features__item-text">Dynamic Type and VoiceOver support for a more universal experience for all.
+            </p>
+          </li>
+          <li class="features__list-item">
+            <img src="./img/icons/screen-lock.svg" alt="Screen Lock" class="features__item-img">
+            <h3 class="features__item-title">Screen Lock</h3>
+            <p class="features__item-text">Protect sensitive information by requiring authentication when the app opens.
+            </p>
+          </li>
+          <li class="features__list-item">
+            <img src="./img/icons/icloud.svg" alt="iCloud" class="features__item-img">
+            <h3 class="features__item-title">iCloud Sync</h3>
+            <p class="features__item-text">Sync on all of your iOS and Mac devices using your Apple ID.</p>
+          </li>
+        </ul>
+        <button class="features__all-btn">View all features</button>
+      </div>
+    </div>
+  </section>
+  <section class="getapp">
+    <div class="container">
+      <div class="getapp__inner">
+        <h2 class="getapp__title">Build better habits.</h2>
+        <h2 class="getapp__title">Get the to-do app that helps you focus.</h2>
+        <button class="appstore-btn"><img src="./img/appstore.svg" alt="AppStore"></button>
+        <img src="./img/getapp.png" alt="Get App" class="getapp__photo">
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__content">
+          <ul class="footer__menu">
+            <li class="footer__menu-title">Products</li>
+            <li class=" footer__menu-item"><a href="#" class="footer__menu-link">Doo for iOS</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Doo for Mac</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Features</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Support</a></li>
+            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Privacy Police</a></li>
+          </ul>
+          <ul class="footer__social">
+            <li class="footer__social-title">Social</li>
+            <li class="footer__social-item"><a href="#" class="footer__social-link">Twitter</a></li>
+            <li class="footer__social-item"><a href="#" class="footer__social-link">Instagram</a></li>
+          </ul>
+          <ul class="footer__contact">
+            <li class="footer__contact-title">Contact</li>
+            <li class="footer__contact-item"><a href="#" class="footer__contact-link">support@getdooapp.com</a></li>
+            <li class="footer__contact-item"></li>
+          </ul>
+          <div class="footer__copyright">
+            <img src="./img/logo.svg" alt="Doo" class="logo">
+            <p class="footer__text">Made with love in NYC</p>
+            <p class="footer__text">Copyright © 2016 – 2021 Ciarlo Software, LLC</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  @@include('_scripts.html')
+</body>
+
+</html>
